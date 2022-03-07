@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: red;
+
+  font-family: roboto, sans-serif;
+  color: red;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+
+  border-radius: 25%;
+}
+
+.container {
+  width: 45rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px 150px;
+
+  border-bottom: 1px solid red;
+  margin-bottom: 10px;
+}
+
+.titulos {
+  margin-left: 20px;
+}
+
+div > h1 {
+  color: red;
+}
+
+div > h2 {
+  color: red;
+}
+
+p {
+  font-size: 16pt;
+  margin: 10px 0;
+  width: 620px;
+}
+
+h3 {
+  margin: 10px 0;
+  color: red;
+}
+
+a {
+  font-size: 15pt;
+  margin: 15px 0 20px;
+}
+
+li {
+  width: 250px;
+}
+/* falar sobre tamanhos e cores
+  Atividade identificarem as propriedades e valores
+  diferença: .titulos >h1 e div > h1
+*/
